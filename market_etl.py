@@ -1,7 +1,7 @@
 import csv
 import json
 import requests
-import s3fs
+#import s3fs
 from io import StringIO
 import requests
 import boto3
