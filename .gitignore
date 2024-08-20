@@ -23,7 +23,7 @@ env/
 *.db
 
 #PPK
-.ppk 
+
 
 # Ignore macOS system files
 .DS_Store
