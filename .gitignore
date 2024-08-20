@@ -22,8 +22,9 @@ env/
 *.sqlite3
 *.db
 
-#PPK
 
+#PPK
+.ppk
 
 # Ignore macOS system files
 .DS_Store
