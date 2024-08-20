@@ -1,0 +1,36 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore environment variables file
+.env
+
+# Ignore compiled files
+*.o
+*.so
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore database files
+*.sqlite3
+*.db
+
+#PPK
+.ppk 
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build output
+/dist/
+/build/
