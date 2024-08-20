@@ -36,7 +36,7 @@ def run_market_etl():
     csv_buffer = StringIO()
     writer = csv.writer(csv_buffer)
     writer.writerows(data)
-    s3.put_object(Bucket='salik-airflow-bucket', Key='Apple_Stock_Data.csv', Body=csv_buffer.getvalue())
+    s3.put_object(Bucket='Your Bucket Name', Key='Apple_Stock_Data.csv', Body=csv_buffer.getvalue())
 
     print("CSV file uploaded successfully to S3.")
 
